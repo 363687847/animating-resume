@@ -1,5 +1,5 @@
 {
-  "name": "react-animation-resume",
+  "name": "animating-resume",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShiningDan/react-animation-resume.git"
+    "url": "git+https://github.com/363687847/animating-resume.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ShiningDan/react-animation-resume/issues"
+    "url": "https://github.com/363687847/animating-resume/issues"
   },
-  "homepage": "https://github.com/ShiningDan/react-animation-resume#readme",
+  "homepage": "https://github.com/363687847/animating-resume#readme",
   "devDependencies": {
     "babel-core": "^6.23.1",
     "babel-loader": "^6.3.2",
