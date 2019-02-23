@@ -34,10 +34,9 @@ class ReactClass extends React.Component {
 * CSS
 * Javascript
 * C/C++
-* Javascript
-* Python
 * Assembly
 * SQL
+* Python(new)
 * Bootstrap(new)
 * React(new)
 * Node.js(new)
@@ -46,10 +45,14 @@ class ReactClass extends React.Component {
 
 > HTML / CSS
 >Building website with different style etc.
-> Placeholder1
-> tdb
-> p2
-> tdb
+> C / C++
+>Trafficing simulation by it's direction and maximum number of cars per direction etc. 
+> Javascript
+>Made modules for address validation from USPS API and currency broker for Software Design
+> Node.js
+>Made my own discord bot using node,js
+> React
+>Building animated resume with React/Javascript/HTML
 
 
 ### What do I think of Myself
@@ -68,20 +71,20 @@ class ReactClass extends React.Component {
 *
 * HOWDY, my name is HUI CHEN
 *
-* 最近看到了 饥人谷 做的动态的简历，感觉很有意思，所以我也用 React 做了一份简易的动态简历
-* 希望大家能够喜欢 :)
+* I found some animated resume pages, it's pretty cool, so i decided to make one for myself
+* Hope you like it too! :)
 */
 
-/* 所以我们就开始吧！首先给所有元素加上过渡效果 */
+/* Let's get started by adding elements */
 * {
   -webkit-transition: all .3s;
   transition: all .3s;
 }
-/* 白色背景太单调了，我们来点背景 */
+/* change the background */
 html {
   color: #888; background: rgb(222,222,222);
 }
-/* 文字直接显示在页面上，没有任何装饰，真的人反人类呢！所以我们来给文字加点装饰吧~~ */
+/* lets add some more style to the text~~ */
 .styleEditor {
   background-color: #303030;
   padding: .5em;
@@ -90,14 +93,14 @@ html {
   overflow: auto;
   width: 45vw; height: 90vh;
 }
-/* 作为一个程序员，我们不可以太沉闷哦~~，给自己的代码加一点色彩吧 */
+/* As a programmer，gotta make your color look better and easy to distinguish */
 .token.comment{ color: #857F6B; font-style: italic; }
 .token.selector{ color: #E86E75; }
 .token.property{ color: #F78C6C; }
 .token.punctuation{ color: #88DCFE; }
 .token.function{ color: #82AAFF; }
 
-/* 加一点 3D 效果，更加地酷炫 */
+/* add some more 3D effect to make it look cool */
 html{
   -webkit-perspective: 1000px;
           perspective: 1000px;
@@ -110,9 +113,9 @@ html{
   -webkit-transform: rotate(-10deg) translateZ(-100px) ;
           transform: rotate(-10deg) translateZ(-100px) ;
 }
-/* 不知道以上对代码框的修改你是否喜欢呢？ */
+/* Do you like!？ */
 
-/* 接下来我给自己准备一个编辑器，用来存放我的简历内容 */
+/* Ok, next, i gonna need to make a editor to save my resume information */
 .resumeEditor{
   position: fixed; right: 0; top: 0;
   padding: .5em;  margin: 1.5em;
@@ -124,12 +127,12 @@ html{
           transform: rotate(10deg) translateZ(-100px) ;
 }
 
-/* 好了，我开始写简历了 */
+/* Time to start putting stuff down */
 `,
 `
-/* 这个简历好像差点什么
- * 对了，这是 Markdown 格式的，我需要变成对 HR 更友好的格式
- * 简单，用开源工具翻译成 HTML 就行了
+/* Am i missing something!?
+ * Yep，it's formmated in Markdown, i need to adjust a bit
+ * By using open source tool to convert to HTML, Here we go!!!
  *           3
  *           2
  *           1
@@ -137,7 +140,7 @@ html{
  */
 `,
 `
-/* 再对 HTML 加点样式 */
+/* add some more HTML elements */
 .resumeEditor{
   padding: 2em;
 }
@@ -161,6 +164,7 @@ html{
 .resumeEditor ul{
 	list-style: none;
 }
+/* Almost there o(≧v≦)o~~ */
 .resumeEditor ul>li::before {
 	content: "•";
 	margin-left: 1em;
@@ -173,7 +177,7 @@ html{
 	overflow: scroll;
 }
 /*
-* UNDER-CONSTRUCTION, LAST UPDATE: FEB, 2019
+* Hope you like it, LAST UPDATE: FEB, 2019
 */
 `];
 	}
