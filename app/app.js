@@ -14,7 +14,11 @@ class ReactClass extends React.Component {
 		};
 		this.interval = 40;
 		this.resumeEditorContent = `
+
+
+
 # HUI CHEN
+
 
 ### Basic Information
 
@@ -36,19 +40,20 @@ class ReactClass extends React.Component {
 * C/C++
 * Assembly
 * SQL
-* Python(new)
-* Bootstrap(new)
-* React(new)
-* Node.js(new)
+* Python
+* Bootstrap
+* React
+* Node.js
 
 ### Skill detail
 
 > HTML / CSS
 >Building website with different style etc.
 > C / C++
->Trafficing simulation by it's direction and maximum number of cars per direction etc. 
+>Trafficing simulation 
 > Javascript
->Made modules for address validation from USPS API and currency broker for Software Design
+>Made modules for address validation from USPS API;
+>currency broker for Software Design
 > Node.js
 >Made my own discord bot using node,js
 > React
@@ -75,14 +80,16 @@ class ReactClass extends React.Component {
 * 囧rz
 */
 
-/* Let's get started by adding elements √(─皿─)√*/
+/* Let's get started by adding elements 
+    √(─皿─)√
+*/
 * {
   -webkit-transition: all .3s;
   transition: all .3s;
 }
 /* change the background */
 html {
-  color: #888; background: rgb(222,222,222);
+  color: #2ECCFA; background: #399647;
 }
 /* lets add some more style to the text~~ */
 .styleEditor {
@@ -93,14 +100,19 @@ html {
   overflow: auto;
   width: 45vw; height: 90vh;
 }
-/* As a programmer，gotta make your code look better and easy to distinguish o(∩_∩)o~ */
+/* As a programmer，gotta make your code look better 
+   and easy to distinguish 
+          o(∩_∩)o~ 
+*/
 .token.comment{ color: #857F6B; font-style: italic; }
-.token.selector{ color: #E86E75; }
-.token.property{ color: #F78C6C; }
-.token.punctuation{ color: #88DCFE; }
-.token.function{ color: #82AAFF; }
+.token.selector{ color: #FFFF00; }
+.token.property{ color: #DC1A1A; }
+.token.punctuation{ color: #2023c1; }
+.token.function{ color: #f27a10; }
 
-/* add some more 3D effect to make it look cool  →_→*/
+/* add some more 3D effect to make it look cool  
+           →_→
+*/
 html{
   -webkit-perspective: 1000px;
           perspective: 1000px;
@@ -110,12 +122,14 @@ html{
   position: fixed; left: 0; top: 0;
   -webkit-transition: none;
   transition: none;
-  -webkit-transform: rotate(-10deg) translateZ(-100px) ;
-          transform: rotate(-10deg) translateZ(-100px) ;
+  -webkit-transform: rotate(-20deg) translateZ(-100px) ;
+          transform: rotate(-20deg) translateZ(-100px) ;
 }
 /* Do you like!？ */
 
-/* Ok, next, i gonna need to make a editor to save my resume information  ╮(╯3╰)╭*/
+/* Ok, next, i gonna need to make an editor to save my resume information 
+		 ╮(╯3╰)╭
+*/
 .resumeEditor{
   position: fixed; right: 0; top: 0;
   padding: .5em;  margin: 1.5em;
@@ -124,7 +138,7 @@ html{
   background: white; color: #222;
   overflow: auto;
 	-webkit-transform: rotate(20deg) translateZ(-100px) ;
-          transform: rotate(10deg) translateZ(-100px) ;
+          transform: rotate(20deg) translateZ(-100px) ;
 }
 
 /* Time to start putting stuff down */
