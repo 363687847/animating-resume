@@ -1,7 +1,7 @@
 {
   "name": "animating-resume",
   "version": "1.0.0",
-  "description": "",
+  "description": "CV",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --progress --colors  --watch",

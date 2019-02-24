@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import marked from "marked";
+/*resumeEditor*/
 
 export default class ResumeEditor extends React.Component{
 	constructor(props) {

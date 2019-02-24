@@ -14356,6 +14356,8 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+/*resumeEditor*/
+
 var ResumeEditor = function (_React$Component) {
 	_inherits(ResumeEditor, _React$Component);
 
@@ -14460,6 +14462,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+/*StyleEditor*/
 
 var StyleEditor = function (_React$Component) {
 	_inherits(StyleEditor, _React$Component);
@@ -21230,7 +21234,7 @@ exports = module.exports = __webpack_require__(423)();
 
 
 // module
-exports.push([module.i, "*{margin: 0; padding: 0;}\n*{box-sizing: border-box;}\n*::before{box-sizing: border-box;}\n*::after{box-sizing: border-box;}", ""]);
+exports.push([module.i, "*{margin: 0; padding: 0;}\n*{box-sizing: border-box;}\n*::before{box-sizing: border-box;}\n*::after{box-sizing: border-box;}\n/*reset*/", ""]);
 
 // exports
 
