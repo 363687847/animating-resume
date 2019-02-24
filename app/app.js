@@ -67,15 +67,15 @@ class ReactClass extends React.Component {
 > If u like it，Fork [PROJECT](https://github.com/363687847/)，BUILD YOUR OWN VERSION！`;
 
 		this.styleEditorContent = [`/*
-* Inspired by http://strml.net/
+* o(≧v≦)o~~
 *
 * HOWDY, my name is HUI CHEN
-*
-* I found some animated resume pages, it's pretty cool, so i decided to make one for myself
-* Hope you like it too! :)
+* 
+* I found some animated resume tutorials, it's pretty cool, so i decided to make one for myself
+* 囧rz
 */
 
-/* Let's get started by adding elements */
+/* Let's get started by adding elements √(─皿─)√*/
 * {
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -93,14 +93,14 @@ html {
   overflow: auto;
   width: 45vw; height: 90vh;
 }
-/* As a programmer，gotta make your color look better and easy to distinguish */
+/* As a programmer，gotta make your code look better and easy to distinguish o(∩_∩)o~ */
 .token.comment{ color: #857F6B; font-style: italic; }
 .token.selector{ color: #E86E75; }
 .token.property{ color: #F78C6C; }
 .token.punctuation{ color: #88DCFE; }
 .token.function{ color: #82AAFF; }
 
-/* add some more 3D effect to make it look cool */
+/* add some more 3D effect to make it look cool  →_→*/
 html{
   -webkit-perspective: 1000px;
           perspective: 1000px;
@@ -115,7 +115,7 @@ html{
 }
 /* Do you like!？ */
 
-/* Ok, next, i gonna need to make a editor to save my resume information */
+/* Ok, next, i gonna need to make a editor to save my resume information  ╮(╯3╰)╭*/
 .resumeEditor{
   position: fixed; right: 0; top: 0;
   padding: .5em;  margin: 1.5em;
@@ -123,7 +123,7 @@ html{
   border: 1px solid;
   background: white; color: #222;
   overflow: auto;
-	-webkit-transform: rotate(10deg) translateZ(-100px) ;
+	-webkit-transform: rotate(20deg) translateZ(-100px) ;
           transform: rotate(10deg) translateZ(-100px) ;
 }
 
@@ -154,6 +154,7 @@ html{
   border-bottom: 1px solid;
   margin: 1em 0 .5em;
 }
+/* ︿(￣︶￣)︽(￣︶￣)︿飞.飞.飞. */
 .resumeEditor h3{
 	display: inline-block;
 	margin: 0.5em 0;
@@ -177,6 +178,7 @@ html{
 	overflow: scroll;
 }
 /*
+* credit:  http://strml.net/
 * Hope you like it, LAST UPDATE: FEB, 2019
 */
 `];
