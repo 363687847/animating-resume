@@ -44,13 +44,15 @@ class ReactClass extends React.Component {
 * Bootstrap
 * React
 * Node.js
+* Php
+* Lua
 
 ### Skill detail
 
-> HTML / CSS
->Building website with different style etc.
+> HTML / CSS / Bootstrap
+>Building websites using HTML/CSS/Bootstrap
 > C / C++
->Trafficing simulation 
+>Trafficing simulation/Socket(client-server communication)
 > Javascript
 >Made modules for address validation from USPS API;
 >currency broker for Software Design
@@ -58,7 +60,14 @@ class ReactClass extends React.Component {
 >Made my own discord bot using node,js
 > React
 >Building animated resume with React/Javascript/HTML
-
+> Php
+>Tesint server side scripting
+> Python
+>Digital image processing for different interpolation,histogram, image compression, filter etc.
+> SQL
+>Database management
+> Lua
+>Making/implementing 2D game with LOVE-2D simulator
 
 ### What do I think of Myself
 
